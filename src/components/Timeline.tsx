@@ -12,6 +12,18 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "CS/Physics Researcher",
+    organization: "Wolfram Emerging Leaders Program",
+    location: "Remote",
+    date: "Aug 2024 - Jan 2025",
+    description: [
+      "Collaborated with CS experts and peers to analyze and model optimal fluid dynamics of skipping rocks on water",
+      "Created a graphical simulation in Wolfram Language with adjustable parameters (mass, velocity, tilt angle)",
+      "Developed real-time visualization showing how parameter changes affect the number of stone skips",
+    ],
+    type: "work",
+  },
+  {
     title: "Research Intern",
     organization: "Wolfram Summer Research Program",
     location: "Boston, MA",
@@ -20,6 +32,18 @@ const experiences: Experience[] = [
       "Designed computer vision edge detection algorithm to generate puzzles in a fast-paced setting",
       "Refined research through cross-functional collaboration and iterative feedback with CS experts",
       "Presented research to hundreds, including Stephen Wolfram, demonstrating communication skills",
+    ],
+    type: "work",
+  },
+  {
+    title: "Crew Member",
+    organization: "Robeks Juice",
+    location: "Naperville, IL",
+    date: "April 2024 - Aug 2025",
+    description: [
+      "Delivered high-quality customer service and managed register operations efficiently",
+      "Prepared delicious smoothies and fresh juice beverages for customers",
+      "Maintained inventory through fruit and vegetable backup preparation",
     ],
     type: "work",
   },
