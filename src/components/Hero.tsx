@@ -63,7 +63,7 @@ const Hero = () => {
           >
             <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-primary/50 glow-orange">
               <img
-                src="/profile-photo.jpg"
+                src="/me.jpeg"
                 alt="Jason Yap"
                 className="w-full h-full object-cover"
               />
