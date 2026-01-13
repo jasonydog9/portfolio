@@ -63,7 +63,7 @@ const Hero = () => {
           >
             <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-primary/50 glow-orange">
               <img
-                src="/me.jpeg"
+                src="/portfolio/me.jpeg"
                 alt="Jason Yap"
                 className="w-full h-full object-cover"
               />
@@ -140,9 +140,8 @@ const Hero = () => {
               className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start"
             >
               <a
-                href="/Jason-Yap Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/portfolio/Jason-Yap Resume.pdf"
+                download="Jason-Yap-Resume.pdf"
                 className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-all glow-orange"
               >
                 <FileText size={18} />
