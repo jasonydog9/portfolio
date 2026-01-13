@@ -75,7 +75,7 @@ const experiences: Experience[] = [
     title: "BS in Computer Science",
     organization: "University of Illinois Urbana-Champaign",
     location: "Champaign, IL",
-    date: "Expected May 2029",
+    date: "Expected May 2028",
     description: [
       "GPA: 4.00/4.00",
       "Deep Learning Specialization - Stanford University",

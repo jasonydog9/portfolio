@@ -82,7 +82,7 @@ const Contact = () => {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/jasonyap"
+                  href="https://www.linkedin.com/in/jason-yap-71b20a253/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all"

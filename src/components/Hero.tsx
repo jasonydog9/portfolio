@@ -62,17 +62,11 @@ const Hero = () => {
             className="relative shrink-0"
           >
             <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-primary/50 glow-orange">
-              {/* Replace this div with your image */}
-              <div className="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center">
-                <span className="text-6xl font-bold gradient-text">JY</span>
-              </div>
-              {/* Uncomment and use this when you have your photo:
-              <img 
-                src="/your-photo.jpg" 
+              <img
+                src="/profile-photo.jpg"
                 alt="Jason Yap"
                 className="w-full h-full object-cover"
               />
-              */}
             </div>
             {/* Decorative ring */}
             <motion.div
@@ -146,7 +140,7 @@ const Hero = () => {
               className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start"
             >
               <a
-                href="#"
+                href="/Jason-Yap Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-all glow-orange"
@@ -164,7 +158,7 @@ const Hero = () => {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/jasonyap"
+                href="https://www.linkedin.com/in/jason-yap-71b20a253/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 border border-muted-foreground/30 text-foreground rounded-lg font-medium hover:border-primary hover:text-primary transition-all"

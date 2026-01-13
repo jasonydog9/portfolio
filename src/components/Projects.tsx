@@ -16,6 +16,12 @@ const projects: Project[] = [
     tags: ["Python", "AI", "Speech Synthesis"],
   },
   {
+    title: "gazr",
+    description: "Chrome extension using MediaPipe for posture detection via shoulder width and eye tracking.",
+    link: "https://sayan090807.github.io/gazr",
+    tags: ["Chrome Extension", "MediaPipe", "Computer Vision"],
+  },
+  {
     title: "Chordly",
     description: "Interactive web app for learning chord progressions through games.",
     link: "https://github.com/jasonydog9/chordly",
