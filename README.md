@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# Jason Yap - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my projects, skills, and experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Live Site**: https://jasonydog9.github.io/pixel-flame-show/
 
-## How can I edit this code?
+## Technologies Used
 
-There are several ways of editing your application.
+- **React** 18 - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Fast build tool
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **shadcn/ui** - UI components
 
-**Use Lovable**
+## Local Development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js 18+ and npm
+- [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating) (recommended)
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Setup
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/jasonydog9/pixel-flame-show.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd pixel-flame-show
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at http://localhost:8080/
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+This site is automatically deployed to GitHub Pages using GitHub Actions.
 
-This project is built with:
+### Initial Setup
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Go to your repository settings on GitHub
+2. Navigate to **Settings > Pages**
+3. Under "Build and deployment":
+   - Source: Select **GitHub Actions**
 
-## How can I deploy this project?
+### Automatic Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Every push to the `main` branch will automatically:
+1. Build the project
+2. Deploy to GitHub Pages
+3. Make it live at https://jasonydog9.github.io/pixel-flame-show/
 
-## Can I connect a custom domain to my Lovable project?
+### Manual Deployment
 
-Yes, you can!
+You can also trigger a deployment manually:
+1. Go to **Actions** tab in your GitHub repository
+2. Select **Deploy to GitHub Pages** workflow
+3. Click **Run workflow**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+pixel-flame-show/
+├── src/
+│   ├── components/     # React components
+│   ├── pages/          # Page components
+│   └── main.tsx        # Entry point
+├── public/             # Static assets
+├── .github/
+│   └── workflows/      # GitHub Actions
+└── vite.config.ts      # Vite configuration
+```
+
+## License
+
+© 2026 Jason Yap. All rights reserved.
