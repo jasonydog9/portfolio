@@ -12,6 +12,18 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "Quantitative Researcher",
+    organization: "Financial Engineering Club",
+    location: "Champaign, IL",
+    date: "Aug 2025 - Present",
+    description: [
+      "Developed ML models for implied volatility prediction achieving R² = 0.814 with 3175× faster inference than Black-Scholes",
+      "Earned Best Poster and Best Project Awards for exceptional research quality and presentation",
+      "Delivered findings to Financial Engineering directors and experts, showcasing technical depth and communication skills",
+    ],
+    type: "award",
+  },
+  {
     title: "CS/Physics Researcher",
     organization: "Wolfram Emerging Leaders Program",
     location: "Remote",
