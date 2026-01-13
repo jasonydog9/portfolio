@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and experience.
 
-**Live Site**: https://jasonydog9.github.io/pixel-flame-show/
+**Live Site**: https://jasonydog9.github.io/portfolio/
 
 ## Technologies Used
 
@@ -24,10 +24,10 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 
 ```sh
 # Clone the repository
-git clone https://github.com/jasonydog9/pixel-flame-show.git
+git clone https://github.com/jasonydog9/portfolio.git
 
 # Navigate to project directory
-cd pixel-flame-show
+cd portfolio
 
 # Install dependencies
 npm install
@@ -61,7 +61,7 @@ This site is automatically deployed to GitHub Pages using GitHub Actions.
 Every push to the `main` branch will automatically:
 1. Build the project
 2. Deploy to GitHub Pages
-3. Make it live at https://jasonydog9.github.io/pixel-flame-show/
+3. Make it live at https://jasonydog9.github.io/portfolio/
 
 ### Manual Deployment
 
